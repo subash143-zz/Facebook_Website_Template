@@ -1,0 +1,138 @@
+/*
+Primary Color: #1877f2
+*/
+
+/* Common */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f2f5;
+}
+.float-right{
+    float:right;
+}
+
+.hover-none:hover{
+    text-decoration: none;
+    background-color: unset !important;
+}
+
+/*Navigation Stylings*/
+nav>li{
+    border-bottom: 2px solid #1877f2;
+}
+.top-search{
+    display: inline-block;
+}
+
+.top-logo{
+    height: 40px;
+    margin-top: -5px;
+}
+
+.top-search input{
+    border-radius: 20px;
+    border: 0px;
+    background: #eee;
+    box-shadow: none;
+    padding-left: 35px;
+}
+
+.nav>li>a{
+    margin: 5px 20px;
+}
+
+.navbar{
+    background-color: white;
+    border:none;
+}
+
+.navbar-default{
+    margin-bottom: 0px;
+    box-shadow: 0px 0px 5px #a7a4a4;
+}
+
+.navbar-header{
+    padding-top: 15px;
+}
+
+.navbar-default .navbar-nav-middle>.active>a{
+    color: #1877f2;
+    background-color: unset;
+}
+.navbar-default .navbar-nav-middle>.active{
+    color: #1877f2;
+    background-color: unset;
+    border-bottom: 3px solid #1877f2;
+}
+
+.navbar-default .navbar-nav-middle>li>a:hover{
+    background-color: unset !important;
+    border-bottom: none;
+}
+
+.navbar-default .navbar-nav-middle>li:hover{
+    background-color: unset !important;
+    border-bottom: 3px solid #1877f2;
+}
+
+.form-control-feedback{
+    right: unset;
+}
+
+.notification{
+    background: red;
+    position: absolute;
+    top: 0px;
+    font-size: 12px;
+    padding: 1px 8px;
+    border-radius: 22px;
+    color: white;
+}
+
+li>a>i{
+    font-size: 20px;
+}
+
+.navbar-nav-right{
+    float: right;
+    padding-top:4px;
+}
+
+.navbar-nav-right>li>a>i{
+    font-size: 15px;
+}
+.navbar-nav-right>li{
+    padding: 5px;
+}
+
+.navbar-nav-right>li>a:hover{
+    background-color: gray;
+}
+
+.navbar-nav-right>li>a{
+    margin:2px;
+    padding:10px 15px;
+    background-color: gainsboro;
+    border-radius: 50px;
+}
+.navbar-default .navbar-nav>li>a{
+    color:black;
+}
+
+.navbar-nav-right>.active>a{
+    background-color: unset !important;
+}
+
+.top-profile{
+    float:right;
+    margin: 0px 10px;
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+.top-profile>img{
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+}

@@ -1,0 +1,270 @@
+.content-container{
+    background: #f0f2f5;
+    height: 100%;
+}
+
+.sidebar{
+    width: 60%;
+    margin-top:10px;
+}
+
+.left-icon{
+    font-weight: 500;
+    padding: 10px;
+    margin: 5px;
+}
+
+.left-icon:hover{
+    background-color: #cccccc;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.left-icon>img{
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+hr{
+    border-top: 1px solid #d0bfbf;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 20px;
+    color: gray;
+    margin:0px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+}
+
+.small-menu{
+    padding-left: 30px;
+    color: gray;
+    font-weight: 400;
+}
+.small-menu img{
+    height: 20px;
+    width: 20px;
+}
+
+.stories{
+    margin-top:20px;
+    height: 190px;
+    overflow: hidden;
+}
+
+.story-card{
+    width: 100px;
+    height:180px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px darkgrey;
+    float: left;
+    margin: 5px;
+}
+
+.story-card:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.story-author{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid blue;
+}
+
+.story-top{
+    height: 60%;
+    width: 100%;
+    background-image: url(./images/top-profile.jpg);
+    background-position: center;
+    background-size: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.story-bottom{
+    height: 40%;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    background-color: white;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.add-story{
+    position: absolute;
+    top: 99px;
+    left: 49px;
+    background-color: blue;
+    font-size: 24px;
+    border-radius: 18px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+}
+
+.story-1{
+    background-image: url(./images/stories/1.jfif);
+}
+.story-2{
+    background-image: url(./images/stories/2.jfif);
+}
+.story-3{
+    background-image: url(./images/stories/3.jfif);
+}
+.story-4{
+    background-image: url(./images/stories/4.jfif);
+}
+.story-5{
+    background-image: url(./images/stories/5.jfif);
+}
+.story-6{
+    background-image: url(./images/stories/6.jfif);
+}
+
+.more-stories{
+    position: absolute;
+    right:0px;
+    top: 85px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 30px;
+    border:1px solid gray;
+    box-shadow: 2px 2px 2px lightgray;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.post-update{
+    height: 122px;
+    background-color: white;
+    margin: 20px 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+.post-update >img{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.post-update>hr{
+    width: calc(100% - 30px);
+}
+
+.post-update>input{
+    width: 87%;
+    border: none;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.post-update>input:focus{
+    width: 87%;
+    border: none;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.updates{
+    padding-left: 50px;
+    width: 30%;
+    float: left;
+}
+
+.updates>img{
+    height:30px;
+}
+
+
+.feed-card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px lightgray;
+    margin-bottom: 20px;
+}
+
+.feed-info>hr{
+    width: 90%;
+}
+
+.author-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    float: left;
+}
+
+.author-info{
+    padding-left:50px
+}
+
+.author-name{
+    color:black;
+    font-weight: 400;
+}
+
+.time-posted{
+    font-size: 12px;
+}
+
+.feed-author{
+    padding: 10px;;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.post-content>img{
+    width: 100%;
+}
+
+.comments-and-reactions{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.reactions>img{
+    height: 20px;
+}
+
+.like-comment-share{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.like>img{
+    height: 20px;
+}
+
+.comment>img{
+    height: 20px;
+}
+
+.share>img{
+    height: 20px;
+}
+
+.see-more>img{
+    background-color: lightgray;
+}
